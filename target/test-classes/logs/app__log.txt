@@ -1,0 +1,19 @@
+INFO    2020-12-24 14:33:53,873 [main] Logger  - Congfig file loaded
+INFO    2020-12-24 14:33:53,874 [main] Logger  - Object Repository file loaded
+INFO    2020-12-24 14:33:58,262 [main] Logger  - Chrome launched
+INFO    2020-12-24 14:34:02,335 [main] Logger  - Window maximized
+INFO    2020-12-24 14:34:04,067 [main] Logger  - SuperSecretPassword is invalid password
+INFO    2020-12-24 14:34:04,656 [main] Logger  - tmsmith is invalid username
+INFO    2020-12-24 14:34:05,267 [main] Logger  - tomsmith and SuperSecretPassword! are valid credentials
+INFO    2020-12-24 14:34:05,426 [main] Logger  - Test execution completed
+INFO    2020-12-24 14:34:09,516 [main] Logger  - Chrome launched
+INFO    2020-12-24 14:34:13,561 [main] Logger  - Window maximized
+INFO    2020-12-24 14:34:18,313 [main] Logger  - Window scrolled and text is asserted
+INFO    2020-12-24 14:34:18,426 [main] Logger  - Test execution completed
+INFO    2020-12-24 14:34:22,264 [main] Logger  - Chrome launched
+INFO    2020-12-24 14:34:26,617 [main] Logger  - Window maximized
+INFO    2020-12-24 14:34:27,508 [main] Logger  - Key press NUMPAD6 asserted
+INFO    2020-12-24 14:34:27,847 [main] Logger  - Key press Q asserted
+INFO    2020-12-24 14:34:28,193 [main] Logger  - Key press 3 asserted
+INFO    2020-12-24 14:34:28,391 [main] Logger  - Key press DOWN asserted
+INFO    2020-12-24 14:34:28,529 [main] Logger  - Test execution completed

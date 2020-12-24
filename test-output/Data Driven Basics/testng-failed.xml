@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Data Driven Basics]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Infinite Scroll(failed)">
+    <classes>
+      <class name="testcases.infiniteScrollTest">
+        <methods>
+          <include name="infinitescrollTest"/>
+          <include name="setUp"/>
+          <include name="before"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.infiniteScrollTest -->
+    </classes>
+  </test> <!-- Infinite Scroll(failed) -->
+  <test thread-count="5" parallel="tests" name="Form Authentication(failed)">
+    <classes>
+      <class name="testcases.formAuthenticationTest">
+        <methods>
+          <include name="formauthenticationTest"/>
+          <include name="before"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.formAuthenticationTest -->
+    </classes>
+  </test> <!-- Form Authentication(failed) -->
+  <test thread-count="5" parallel="tests" name="Key Presses(failed)">
+    <classes>
+      <class name="testcases.keyPressesTest">
+        <methods>
+          <include name="keypressTest" invocation-numbers="0 1 2 3"/>
+          <include name="before"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.keyPressesTest -->
+    </classes>
+  </test> <!-- Key Presses(failed) -->
+</suite> <!-- Failed suite [Data Driven Basics] -->
